@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>La Pagina Web de David Giraldo</title>
+<style>
+.centrar {
+    botton: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed; 
+    bottom:0%;
+}
+.titulo {
+    padding: 25px;
+    background-color: rgba(255,255,255, 0.7);
+    color: #000000;
+    font-size: 3rem;
+    font-family: Helvetica;
+}
+</style>
+</head>
+<body>
+    <img id="bgimg" src="" />   
+    <div class="centrar">
+        <h1 class="titulo">La P&#225;gina Web de David Giraldo</h1>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.1.18/jquery.backstretch.min.js" integrity="sha512-bXc1hnpHIf7iKIkKlTX4x0A0zwTiD/FjGTy7rxUERPZIkHgznXrN/2qipZuKp/M3MIcVIdjF4siFugoIc2fL0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+$.backstretch([
+    "images/1.jpg",
+    "images/2.png",
+    "images/3.jpg",
+    "images/4.jpg",
+    "images/5.jpg",
+    "images/6.jpg",
+    "images/7.jpg",
+    "images/8.jpg",
+    "images/9.jpg",
+    "images/10.png",
+    "images/11.jpg",       
+  ], 
+  {duration: 3000, fade: 750}
+);
+</script>
+</html>
